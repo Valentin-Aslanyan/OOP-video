@@ -14,7 +14,7 @@ public:
 		y='a';
 	}
 
-	int get_x() //could write const here, doesn't make a difference
+	int get_x() //could write const here, doesn't seem to make a difference for me
 	{
 		return x;
 	}
