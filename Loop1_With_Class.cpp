@@ -8,16 +8,14 @@ class Alice{
 public:
 	int x;
 	char y;
-	
-	Alice(){
-		x=0;
-		y='a';
+
+	Alice():x(0),y('a'){
 	}
 };
 
 
 int main(){
-	
+
 	int i,arr_size=100000000;
 
 	//Create array of Alice class in memory; automatically calls constructor
