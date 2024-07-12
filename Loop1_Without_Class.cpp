@@ -4,20 +4,10 @@ using namespace std;
 using namespace std::chrono;
 
 
-class Alice{
-public:
-	int x;
-	char y;
-	
-	Alice(){
-		x=0;
-		y='a';
-	}
-};
 
 
 int main(){
-	
+
 	int i,arr_size=100000000;
 
 	//Create separate arrays of x,y in memory and loop to initialize
