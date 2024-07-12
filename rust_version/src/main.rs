@@ -17,9 +17,8 @@ fn work_class(arr: &mut [Alice]) {
 fn bench_class() -> Duration {
     let a = Alice { x: 0, y: b'a' };
     let mut arr = vec![a; ARR_SIZE];
-    work_class(arr.as_mut());
-    println!("Result is {}", arr[42].x); // if this is removed, call to work_class is optimized away (as it does nothing)
     let t1 = Instant::now();
+    work_class(arr.as_mut());
     t1.elapsed()
 }
 
